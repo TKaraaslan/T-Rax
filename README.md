@@ -27,5 +27,6 @@ Projenin veritabanına bağlanabilmesi için her kullanıcının kendi yerel şi
 Eğer şifreniz doğru olduğu halde bağlantı hatası alıyorsanız, MySQL terminalinde (veya Workbench üzerinde) şu komutu çalıştırarak yetkilendirme yöntemini güncelleyin:
 
 ```sql
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'kendi_sifreniz';
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'your_password';
 FLUSH PRIVILEGES;
+Not: Yukarıdaki your_password kısmını kendi MySQL şifrenizle değiştirin.
