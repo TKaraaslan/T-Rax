@@ -31,6 +31,3 @@ Not: YOUR_PASSWORD kısmına kendi şifrenizi yazınız.
 ```sql
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'YOUR_PASSWORD';
 FLUSH PRIVILEGES;
-
-
-
